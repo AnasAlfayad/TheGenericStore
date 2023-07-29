@@ -4,8 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is the description" />
     <title>The Generics | Store</title>
-    meta{name=description content=this is the discription}
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="storeStyle.css" />
+    <script src="store.js" async></script>
   </head>
-  <body></body>
+  <body>
+    <header class="main-header">
+      <nav class="nav main-nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="store.html">STORE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <h1 class="band-name band-name-large">The Generics</h1>
+    </header>
+    <section class="content-section container">
+      <h2 class="section-header">MUSIC</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <div class="shop-item-title">Album 1</div>
+          <img class="shop-item-image" src="Images/Album 1.png" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$12.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="shop-item-title">Album 2</div>
+          <img class="shop-item-image" src="Images/Album 2.png" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$14.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="shop-item-title">Album 3</div>
+          <img class="shop-item-image" src="Images/Album 3.png" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$9.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="shop-item-title">Album 4</div>
+          <img class="shop-item-image" src="Images/Album 4.png" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="content-section container">
+      <h2 class="section-header">MERCH</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <div class="shop-item-title">T-Shirt</div>
+
+          <img class="shop-item-image" src="Images/Shirt.png" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$19.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <div class="shop-item-title">Cofee Cup</div>
+          <img class="shop-item-image" src="Images/Cofee.png" alt="" />
+          <div class="shop-item-details">
+            <span class="shop-item-price">$6.99</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-header cart-column cart-item">ITEM</span>
+        <span class="cart-header cart-column cart-price">PRICE</span>
+        <span class="cart-header cart-column cart-quantity">QUANTITY</span>
+      </div>
+      <div id="cart-items">
+        <!-- <div class="cart-row">
+          <div class="cart-column cart-item">
+            <img class="cart-item-image" src="Images/Shirt.png" />
+            <span class="cart-item-title">T-Shirt</span>
+          </div>
+
+          <span class="cart-column cart-price">$19.99</span>
+          <div class="cart-column cart-quantity">
+            <input class="cart-quantity-input" type="number" value="1" />
+            <button class="btn btn-danger">REMOVE</button>
+          </div>
+        </div>
+        <div class="cart-row">
+          <div class="cart-column cart-item">
+            <img class="cart-item-image" src="Images/Album 3.png" />
+            <span class="cart-item-title">Album 3</span>
+          </div>
+          <span class="cart-column cart-price">$9.99</span>
+          <div class="cart-column cart-quantity">
+            <input class="cart-quantity-input" type="number" value="2" />
+            <button class="btn btn-danger">REMOVE</button>
+          </div>
+        </div> -->
+      </div>
+      <div class="cart-total">
+        <span class="cart-total-title">Total</span>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+    <footer class="main-footer">
+      <div class="container main-footer container">
+        <h3 class="band-name">The Generics</h3>
+        <ul class="nav footer-nav">
+          <li>
+            <a href="http://www.youtube.com" target="_blank">
+              <img src="Images/YouTube Logo.png" alt="not found" />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.spotify.com" target="_blank">
+              <img src="Images/Spotify Logo.png" alt="not found" />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.facebook.com" target="_blank">
+              <img src="Images/Facebook Logo.png" alt="not found" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
